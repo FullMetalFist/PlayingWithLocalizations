@@ -13,6 +13,7 @@
 		7CB7013A1B3604C200F561CF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CB701381B3604C200F561CF /* LaunchScreen.xib */; };
 		7CB701461B3604C200F561CF /* PlayingWithInternationalizationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB701451B3604C200F561CF /* PlayingWithInternationalizationTests.m */; };
 		7CB701511B3604FA00F561CF /* PWIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB701501B3604FA00F561CF /* PWIViewController.m */; };
+		7CB701531B36062C00F561CF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7CB701521B36062C00F561CF /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,8 @@
 		7CB701451B3604C200F561CF /* PlayingWithInternationalizationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayingWithInternationalizationTests.m; sourceTree = "<group>"; };
 		7CB7014F1B3604FA00F561CF /* PWIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWIViewController.h; sourceTree = "<group>"; };
 		7CB701501B3604FA00F561CF /* PWIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWIViewController.m; sourceTree = "<group>"; };
+		7CB701521B36062C00F561CF /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		7CB701541B37668500F561CF /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 			children = (
 				7CB7012D1B3604C200F561CF /* AppDelegate.h */,
 				7CB7012E1B3604C200F561CF /* AppDelegate.m */,
+				7CB701521B36062C00F561CF /* Localizable.strings */,
 				7CB7014F1B3604FA00F561CF /* PWIViewController.h */,
 				7CB701501B3604FA00F561CF /* PWIViewController.m */,
 				7CB701361B3604C200F561CF /* Images.xcassets */,
@@ -198,6 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CB7013A1B3604C200F561CF /* LaunchScreen.xib in Resources */,
+				7CB701531B36062C00F561CF /* Localizable.strings in Resources */,
 				7CB701371B3604C200F561CF /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -245,6 +250,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				7CB701391B3604C200F561CF /* Base */,
+				7CB701541B37668500F561CF /* es */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -405,6 +411,7 @@
 				7CB7014B1B3604C200F561CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7CB7014C1B3604C200F561CF /* Build configuration list for PBXNativeTarget "PlayingWithInternationalizationTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +420,7 @@
 				7CB7014E1B3604C200F561CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
