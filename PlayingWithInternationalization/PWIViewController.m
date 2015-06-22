@@ -30,9 +30,9 @@ NSString *const kBigLabelVertical = @"V:|-[_bigLabel]-|";
 - (void)constructSubviews {
     self.bigLabel = [[UILabel alloc] init];
     self.bigLabel.translatesAutoresizingMaskIntoConstraints = NO;
-    [self.bigLabel setText:@"Big Label"];   // the old way
+//    [self.bigLabel setText:@"Big Label"];   // the old way
     self.bigLabel.text = NSLocalizedString(@"Big Label", @"Grande la etiqueta");    // the new way
-    self.bigLabel.text = [NSString localizedStringWithFormat:NSLocalizedString(@"Big Label", @"Grande la etiqueta")];   // longer way
+//    self.bigLabel.text = [NSString localizedStringWithFormat:NSLocalizedString(@"Big Label", @"Grande la etiqueta")];   // longer way
     [self.view addSubview:self.bigLabel];
 }
 
